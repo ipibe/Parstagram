@@ -17,6 +17,7 @@
 		08E0D544222E24E600B84F81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E0D542222E24E600B84F81 /* LaunchScreen.storyboard */; };
 		08E0D54F222E24E600B84F81 /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E0D54E222E24E600B84F81 /* ParstagramTests.swift */; };
 		08E0D55A222E24E600B84F81 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E0D559222E24E600B84F81 /* ParstagramUITests.swift */; };
+		08FEE5B62239F1C600EC53F7 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FEE5B52239F1C600EC53F7 /* CommentCell.swift */; };
 		3958257095D37381A4F8BE2C /* Pods_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E6E220367D9292C35454F4 /* Pods_ParstagramUITests.framework */; };
 		741045CC73A4D15AC6C25AF0 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B37DF364D3F483EFAF8811 /* Pods_Parstagram.framework */; };
 		AD06419E9749843B2A22E680 /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497CF4EC154E4BE144C70670 /* Pods_ParstagramTests.framework */; };
@@ -56,6 +57,7 @@
 		08E0D555222E24E600B84F81 /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E0D559222E24E600B84F81 /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		08E0D55B222E24E600B84F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08FEE5B52239F1C600EC53F7 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		2E1B5F7EF4AE079DC23410DA /* Pods-Parstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.release.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.release.xcconfig"; sourceTree = "<group>"; };
 		31F7E49856643F0DF1C2F1B8 /* Pods-ParstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-ParstagramUITests/Pods-ParstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3470A9A44982345C8EE99F70 /* Pods-ParstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramTests.release.xcconfig"; path = "Target Support Files/Pods-ParstagramTests/Pods-ParstagramTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				089F4E15223211BE002F13B4 /* FeedViewController.swift */,
 				089F4E1722321F7E002F13B4 /* CameraViewController.swift */,
 				089F4E1922351A16002F13B4 /* PostCell.swift */,
+				08FEE5B52239F1C600EC53F7 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -326,6 +330,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				089F4E16223211BE002F13B4 /* FeedViewController.swift in Sources */,
 				08E0D53A222E24E300B84F81 /* AppDelegate.swift in Sources */,
 				089F4E1A22351A16002F13B4 /* PostCell.swift in Sources */,
+				08FEE5B62239F1C600EC53F7 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
