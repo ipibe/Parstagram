@@ -1,8 +1,8 @@
-# Project 3 - * Parstagram*
+# Project 3 - * Parstagram* Part 1
 
-**Name of your app** is a basic app to read post images.
+**Parstagram** is a basic app to read post images.
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## User Stories
 
@@ -24,4 +24,16 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='http://g.recordit.co/rLwUstk3eF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+---
+# Project 3 -  Parstagram Part 2
 
+**Parstagram** is a basic app to read post images.
+
+Time spent: **3** hours spent in total
+
+## User Stories
+
+The following **required** functionality is completed:
+
+## Video Walkthrough
+<img src='http://g.recordit.co/g15W0kAAQ6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
