@@ -16,15 +16,18 @@ The following **required** functionality is completed:
 
 The following **bonus** features are implemented:
 
-- [ ] User can pull to refresh. (1pt)
-- [ ] User can load past tweets infinitely. (2pts)
+- [ ] User can pull to refresh.
+- [ ] User can load past tweets infinitely.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
 <img src='http://g.recordit.co/rLwUstk3eF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
----
+
+
+
+
 # Project 3 -  Parstagram Part 2
 
 **Parstagram** is a basic app to read post images.
@@ -34,6 +37,13 @@ Time spent: **3** hours spent in total
 ## User Stories
 
 The following **required** functionality is completed:
+
+- [x] User stays logged in across restarts.
+- [x] User can log out.
+- [x] User can view comments on a post.
+- [x] User can add a new comment.
+
+Here's a walkthrough of implemented user stories:
 
 ## Video Walkthrough
 <img src='http://g.recordit.co/g15W0kAAQ6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
